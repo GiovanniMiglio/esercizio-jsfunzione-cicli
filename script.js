@@ -85,7 +85,7 @@ switch(true){
         
     }*/
    // esercizio 2 switch 
-let temperatura = prompt("Quanti gradi ci sono oggi?")
+/*let temperatura = prompt("Quanti gradi ci sono oggi?")
 let risp
 switch (true) {
     case ( temperatura < 20 && temperatura > 0):
@@ -114,5 +114,14 @@ switch (true) {
 
         break;
         
+}*/
+// esercizio 3 cicli
+let num = 2
+for (let i = 0; i <= 10; i++) {
+    let risultato = 2*i;
+   console.log( risultato );
+   
+   
+    
 }
     
