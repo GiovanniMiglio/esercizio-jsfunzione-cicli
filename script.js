@@ -116,12 +116,26 @@ switch (true) {
         
 }*/
 // esercizio 3 cicli
+/*let num = 2
+for (let i = 0; i <= 10; i++) {
+    let risultato = 2*i;
+   console.log( risultato ); 
+}*/
 let num = 2
+let sommadisp = 0
+let contdisp = 0
 for (let i = 0; i <= 10; i++) {
     let risultato = 2*i;
    console.log( risultato );
-   
-   
-    
 }
+for (let disp = 1; disp <= 20; disp++) {
+  if (disp % 2 !== 0) {
+    
+    sommadisp += disp;
+    contdisp++;
+  }
+}
+let media = sommadisp/contdisp;
+console.log( "la media dei numeri dispari e", media);
+
     
